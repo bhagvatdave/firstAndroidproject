@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#189302"
+    tools:context=".fragment.RegFragment">
+
+    <EditText
+        android:id="@+id/editnewuserName"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="100dp"
+        android:ems="10"
+        android:hint="User name"
+        android:gravity="center"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editEmailAddress"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="150dp"
+        android:ems="10"
+        android:hint="Email"
+        android:gravity="center"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editPhone1"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="200dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editPassword1"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="250dp"
+        android:ems="10"
+        android:hint="Password"
+        android:gravity="center"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editrepitPassword1"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="300dp"
+        android:ems="10"
+        android:hint="Re-enter Password"
+        android:gravity="center"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="350dp"
+        android:text="Register" />
+
+</FrameLayout>

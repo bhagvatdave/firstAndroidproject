@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#189302"
+    tools:context=".fragment.loginFragment">
+
+
+    <EditText
+        android:id="@+id/editPersonName"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="100dp"
+        android:ems="10"
+        android:hint="User name"
+        android:gravity="center"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="150dp"
+        android:ems="10"
+        android:hint="Password"
+        android:gravity="center"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="200dp"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/tvnewuser"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity=""
+        android:layout_margin="250dp"
+        android:text="New User" />
+</FrameLayout>

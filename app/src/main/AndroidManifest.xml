@@ -10,14 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Firsttestproject">
         <activity
-            android:name=".Widget_Component.STCactivity"
-            android:exported="true" >
+            android:name=".Menu.MenuActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Widget_Component.Seekbar"
+            android:exported="false" />
+        <activity
+            android:name=".Widget_Component.WidgetButton"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Widget_Component.STCactivity"
+            android:exported="true">
+    </activity>
         <activity
             android:name=".fragment.holder"
             android:exported="false" />
@@ -29,9 +41,7 @@
             android:exported="true" />
         <activity
             android:name=".regestration.LoginPage"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".objpassing.Objbindingpassing"
             android:exported="true" />

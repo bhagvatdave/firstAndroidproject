@@ -92,47 +92,15 @@ public class MenuActivity extends AppCompatActivity {
 
                     Mbinding.getRoot().setBackgroundColor(Color.rgb(red,green,blue));
                     Snackbar.make(Mbinding.getRoot(),"Current Color Code is " + String.format("#%02x%02x%02x", red, green,blue),Snackbar.LENGTH_SHORT).show();
-                    new Thread(new Runnable() {
-                        @Override
-                        public void run() {
-                            try {
-                                Thread.sleep(3000);
-
-                                runOnUiThread(new Runnable() {
-                                    @Override
-                                    public void run() {
-                                        Mbinding.getRoot().setBackgroundColor(Color.WHITE);
-                                    }
-                                });
-
-                            } catch (InterruptedException e) {
-                                e.printStackTrace();
-                            }
-                        }
-                    }).start();
+                    Mbinding.btnPopup.setVisibility(View.INVISIBLE);
+                    Mbinding.btnContext.setVisibility(View.INVISIBLE);
+                        runonthreading();
                     break;
                 case R.id.Loadimage:
                     Mbinding.getRoot().setBackgroundResource(R.drawable._435045);
-
-                    new Thread(new Runnable() {
-                        @Override
-                        public void run() {
-                            try {
-                                Thread.sleep(3000);
-
-                                runOnUiThread(new Runnable() {
-                                    @Override
-                                    public void run() {
-                                        Mbinding.getRoot().setBackgroundColor(Color.WHITE);
-                                    }
-                                });
-
-                            } catch (InterruptedException e) {
-                                e.printStackTrace();
-                            }
-                        }
-                    }).start();
-
+                    Mbinding.btnPopup.setVisibility(View.INVISIBLE);
+                    Mbinding.btnContext.setVisibility(View.INVISIBLE);
+                    runonthreading();
                     //Snackbar.make(Mbinding.getRoot(),"item3",Snackbar.LENGTH_SHORT).show();
                     break;
                 case R.id.AnotherMenu:
@@ -152,5 +120,27 @@ public class MenuActivity extends AppCompatActivity {
 
         Random rand = new Random();
         return rand.nextInt(266);
+    }
+    void runonthreading(){
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    Thread.sleep(3000);
+
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            Mbinding.getRoot().setBackgroundColor(Color.WHITE);
+                            Mbinding.btnPopup.setVisibility(View.VISIBLE);
+                            Mbinding.btnContext.setVisibility(View.VISIBLE);
+                        }
+                    });
+
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
     }
 }

@@ -3,13 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/drawable/ic_poke.xml" value="0.2115" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_cdialog.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_dashbord.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_dialog.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_drawer.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_holder.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_login_page.xml" value="0.1" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_menu.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_my_view_pager.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_newuser.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_objbindingpassing.xml" value="0.13402061855670103" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_one.xml" value="0.19698492462311556" />
@@ -19,9 +22,14 @@
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_two.xml" value="0.22" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_widget_button.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/fragment_login.xml" value="0.18" />
+        <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/fragment_one.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/fragment_reg.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/fragment_three.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/fragment_two.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/header_layout.xml" value="0.18" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/layout_login.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/menu/my_menu.xml" value="0.33" />
+        <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/menu/navigation_menu.xml" value="0.1675929884566054" />
       </map>
     </option>
   </component>

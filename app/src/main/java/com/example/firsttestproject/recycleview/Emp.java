@@ -1,28 +1,17 @@
-package com.example.firsttestproject.objpassing;
+package com.example.firsttestproject.recycleview;
 
-import java.io.Serializable;
 
-public class Emp implements Serializable {
-    int id;
+public class Emp  {
     String Name;
     String Field;
-    int Selery;
+    int Salary;
     String Address;
 
-    public Emp(int id, String name, String field, int selery, String address) {
-        this.id = id;
+    public Emp(String name, String field, int salary, String address) {
         Name = name;
         Field = field;
-        this.Selery = selery;
+        this.Salary = salary;
         Address = address;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -41,12 +30,12 @@ public class Emp implements Serializable {
         Field = field;
     }
 
-    public int getSelery() {
-        return Selery;
+    public int getSalary() {
+        return Salary;
     }
 
-    public void setSelery(int selery) {
-        this.Selery = selery;
+    public void setSalary(int salary) {
+        this.Salary = salary;
     }
 
     public String getAddress() {

@@ -10,13 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Firsttestproject">
         <activity
-            android:name=".Listview.Listview"
+            android:name=".recycleview.EmpListActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Listview.Listview"
+            android:exported="true">
         </activity>
         <activity
             android:name=".viewpager.MyViewPagerActivity"
@@ -28,7 +32,7 @@
             android:exported="false" />
         <activity
             android:name=".Dialog.DialogActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".Menu.MenuActivity"
             android:exported="true" />

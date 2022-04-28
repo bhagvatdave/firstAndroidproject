@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Objbindingpassing"
+        android:title="Objbindingpassing"
+        android:icon="@drawable/ic_poke"/>
+    <item
+        android:id="@+id/LoginPage"
+        android:title="LoginPage"
+        android:icon="@drawable/ic_poke"/>
+    <item
+        android:id="@+id/OneActivity"
+        android:title="OneActivity"
+        android:icon="@drawable/ic_poke"/>
+    <item
+        android:id="@+id/STCactivity"
+        android:title="STCactivity"
+        android:icon="@drawable/ic_poke"/>
+    <item
+        android:id="@+id/Seekbar"
+        android:title="Seekbar"
+        android:icon="@drawable/ic_poke"/>
+    <item
+        android:id="@+id/myItem6"
+        android:title="Menu 6"
+        android:icon="@drawable/ic_poke"/>
+    <item
+        android:id="@+id/myItem7"
+        android:title="Menu 7"
+        android:icon="@drawable/ic_poke"/>
+    <item
+        android:id="@+id/myItem8"
+        android:title="Menu 8"
+        android:icon="@drawable/ic_poke"/>
+    <item
+        android:id="@+id/myItem9"
+        android:title="Menu 9"
+        android:icon="@drawable/ic_poke"/>
+    <item
+        android:id="@+id/myItem10"
+        android:title="Menu 10"
+        android:icon="@drawable/ic_poke"/>
+    <item
+        android:id="@+id/myItem11"
+        android:title="Menu 11"
+        android:icon="@drawable/ic_poke"/>
+    <item
+        android:id="@+id/myItem12"
+        android:title="Menu 12"
+        android:icon="@drawable/ic_poke"/>
+
+</menu>

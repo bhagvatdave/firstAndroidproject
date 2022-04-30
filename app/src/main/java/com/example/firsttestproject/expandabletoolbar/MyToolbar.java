@@ -22,7 +22,7 @@ private ActivityMyToolbarBinding tbinding;
         getSupportActionBar().hide();
         tbinding.webview.setWebViewClient(new WebViewClient());
 
-        tbinding.webview.loadUrl("https://www.bing.com/");
+        tbinding.webview.loadUrl("https://www.duckduckgo.com/");
     tbinding.webview.setOnScrollChangeListener((view, i, i1, i2, i3) -> {
         AppBarLayout appBarLayout=tbinding.appbar;
         appBarLayout.setExpanded(i1<i3,true);

@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="272dp"
         android:background="#8BC34A"
-        android:text="@{passobject.id+`|`+passobject.name+`|`+passobject.field+`|`+passobject.selery+`|`+passobject.address}"
+        android:text="@{passobject.id+`|`+passobject.Name+`|`+passobject.field+`|`+passobject.selery+`|`+passobject.address}"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

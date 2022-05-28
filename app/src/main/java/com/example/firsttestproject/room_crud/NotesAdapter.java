@@ -1,5 +1,6 @@
 package com.example.firsttestproject.room_crud;
 
+import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.view.LayoutInflater;
@@ -7,7 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 
 
@@ -39,6 +39,11 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.NotesViewHol
 
         holder.binding.setObject(n);
 
+        holder.itemView.setOnClickListener(view -> {
+
+            new AlertDialog.Builder(context);
+
+        });
 
     }
 

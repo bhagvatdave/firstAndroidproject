@@ -16,22 +16,44 @@
         android:theme="@style/Theme.Firsttestproject"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".room_crud.NewNotpad"
-            android:exported="false" />
+            android:name=".Firebase_login.newuser"
+            android:exported="true" />
         <activity
-            android:name=".room_crud.NotesAppActivity"
-            android:exported="true" >
+            android:name=".Firebase_login.Dashbord"
+            android:exported="true" />
+        <activity android:name=".Firebase_login.LoginPage"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".NearEarthAPI.NearEarthActivity"
+            android:exported="true" >
 
         </activity>
         <activity
-            android:name=".internal_external.InternalExternalActivity"
+            android:name=".josn_parsing.OnlineJsonActivity"
             android:exported="true">
+
         </activity>
+        <activity
+            android:name=".room_crud.NewNotpad"
+            android:exported="false" />
+        <activity
+            android:name=".room_crud.NotesAppActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".internal_external.InternalExternalActivity"
+            android:exported="true" />
         <activity
             android:name=".expandabletoolbar.MyToolbar"
             android:exported="true" />

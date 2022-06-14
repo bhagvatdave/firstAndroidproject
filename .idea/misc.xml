@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/drawable/ic_poke.xml" value="0.2115" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/drawable/ic_search.xml" value="0.1745" />
+        <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/User_row_item.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/User_row_item_search.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_cdialog.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_dashbord.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_dialog.xml" value="0.1675929884566054" />
@@ -32,6 +34,7 @@
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_stcactivity.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_stcandseekbar.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_two.xml" value="0.22" />
+        <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_user_list.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/activity_widget_button.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/earth_row_item.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/bhagvat dave/AndroidStudioProjects/firsttestproject/app/src/main/res/layout/emp_row_item.xml" value="0.1675929884566054" />

@@ -16,13 +16,8 @@
         android:theme="@style/Theme.Firsttestproject"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".Firebase_login.newuser"
-            android:exported="true" />
-        <activity
-            android:name=".Firebase_login.Dashbord"
-            android:exported="true" />
-        <activity android:name=".Firebase_login.LoginPage"
-            android:exported="true">
+            android:name=".firebase_realtime.UserListActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,15 +25,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".NearEarthAPI.NearEarthActivity"
-            android:exported="true" >
-
-        </activity>
+            android:name=".Firebase_login.newuser"
+            android:exported="true" />
         <activity
-            android:name=".josn_parsing.OnlineJsonActivity"
+            android:name=".Firebase_login.Dashbord"
+            android:exported="true" />
+        <activity
+            android:name=".Firebase_login.LoginPage"
             android:exported="true">
 
         </activity>
+        <activity
+            android:name=".NearEarthAPI.NearEarthActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".josn_parsing.OnlineJsonActivity"
+            android:exported="true"></activity>
         <activity
             android:name=".room_crud.NewNotpad"
             android:exported="false" />
